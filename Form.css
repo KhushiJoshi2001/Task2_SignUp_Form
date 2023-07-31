@@ -1,0 +1,82 @@
+/* FormStyles.css */
+
+/* Customize the form container */
+.black-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* Change the background color to a light grey */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Style the form headings */
+.black-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Style the input group container */
+.input-group {
+  margin-bottom: 20px;
+}
+
+/* Style the form inputs */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+/* Customize the form input placeholders */
+.form-control::placeholder {
+  color: #a62121;
+  font-style: italic;
+}
+
+/* Style the floating labels */
+.form-floating label {
+  position: relative;
+  transform: translateY(20px);
+  font-size: 14px;
+  color: #999;
+  pointer-events: none;
+  transition: transform 0.2s ease-in-out;
+}
+
+.form-floating input:focus + label,
+.form-floating input:not(:placeholder-shown) + label {
+  transform: translateY(0);
+  font-size: 12px;
+  color: #333;
+}
+
+/* Style the checkbox and radio inputs */
+.form-check-input {
+  margin-right: 8px;
+}
+
+/* Style the form submit button */
+.form-check-inputy {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.form-check-inputy:hover {
+  background-color: #555;
+}
